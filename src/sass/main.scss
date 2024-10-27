@@ -14,14 +14,12 @@ body{
 }
 .defualt:focus{
     border: none;
-
 }
 // Global Rules 
 .navbar{
     background-color: #ffff !important;
     border-bottom:1px solid #4220203b;
     box-shadow: 1px 1.4px 1.7px 1.6px #00000024;
-
     &-brand{
         img{
             width:60px;
@@ -30,7 +28,6 @@ body{
         }
     }
 }
-
 .nav-link.active{
     color:red !important;
 }
