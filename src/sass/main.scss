@@ -1,0 +1,94 @@
+//  Global Rules 
+body{
+    background-color:#efefef;
+}
+.navbar{
+    background-color: #ffff !important;
+    border-bottom:1px solid #4220203b;
+    box-shadow: 1px 1.4px 1.7px 1.6px #00000024;
+
+    &-brand{
+        img{
+            width:60px;
+            height: 60px;
+            border-radius: 50%;
+        }
+    }
+}
+
+.nav-link.active{
+    color:red !important;
+}
+
+
+
+
+
+
+
+.footer {
+    img{
+        height: 50px !important;
+    }
+}
+
+.title{
+    background-color: #ffff !important;
+    border-bottom:1px solid #4220203b;
+    box-shadow: 1px 1.4px 1.7px 1.6px #00000024; 
+}
+
+.card{
+    &-logo{
+        margin: 13px 13px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+        background-color: #0d6efd;
+        color: #fff;
+    }
+}
+
+//  Tours
+.tour{
+    padding:10px;
+    &-description{
+        background-color: #fff;
+        padding:30px;
+        line-height: 2;
+    }
+    &-title{
+        background-color: #fff;
+        padding-right: 10px;
+        margin-right: 9px;
+        width: 98.7%;
+    }
+}
+.tour-title{
+    background-color: #fff;
+    padding-right: 10px;
+    margin-right: 9px;
+    width: 98.7%;
+}
+
+.carousel-inner{
+    .carousel-item{
+        img{
+            height: 500px;
+            border-radius: 4px;
+        }
+    }
+
+
+}
+
+
+.carousel-indicators [data-bs-target]{
+    width:20px;
+    height: 20px;
+    border-radius: 100%;
+}
+//  Tours
