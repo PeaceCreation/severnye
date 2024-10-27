@@ -90,6 +90,18 @@ module.exports = {
       filename: 'turkey.html',
       template: './src/turkey.html'
     }),
+    new HtmlWebpackPlugin({
+      filename: 'contact.html',
+      template: './src/contact.html'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'signin.html',
+      template: './src/signin.html'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'tours.html',
+      template: './src/tours.html'
+    }),
     new MiniCssExtractPlugin({
       filename: 'css/main.css',
     })

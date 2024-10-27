@@ -1,7 +1,22 @@
 //  Global Rules 
+a{
+    text-decoration: none;
+}
 body{
     background-color:#efefef;
 }
+.defualt{
+    border:1px solid #efefef;
+}
+.defualt:hover{
+    background: #0d6efd;
+    color:#fff;
+}
+.defualt:focus{
+    border: none;
+
+}
+// Global Rules 
 .navbar{
     background-color: #ffff !important;
     border-bottom:1px solid #4220203b;
@@ -50,6 +65,13 @@ body{
         background-color: #0d6efd;
         color: #fff;
     }
+    &-text{
+        display: -webkit-box;
+        -webkit-line-clamp: 2; /* Number of lines to display */
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
 }
 
 //  Tours
@@ -92,3 +114,29 @@ body{
     border-radius: 100%;
 }
 //  Tours
+
+
+//  Conatct Us
+.fa{
+    &-envelope,
+    &-map,
+    -phone{
+        width: 20px;
+        font-size: 4px;
+        padding-top: 3px;
+        height: 20px;
+    }
+}
+
+textarea{
+    height: 190px !important;
+}
+//  Conatct Us
+
+//  Footer 
+footer{
+    p{
+        font-size: 20px;
+    }
+}
+//  Footer 
