@@ -101,10 +101,7 @@ module.exports = {
       filename: 'signin.html',
       template: './src/signin.html',
     }),
-    new HtmlWebpackPlugin({
-      filename: 'tours.html',
-      template: './src/tours.html',
-    }),
+
 
     // CSS extraction into a separate file
     new MiniCssExtractPlugin({

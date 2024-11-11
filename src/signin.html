@@ -4,164 +4,161 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> سفرني | إنشاء حساب جديد</title>
-    <link rel="stylesheet" href="./css/style.css">
+
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="./">
-            سفرني
-            <img src="./images/logo.png" alt="">
+     <!-- Navbar & Hero Start -->
+     <div class="container-fluid position-relative p-0">
+      <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+          <a href="" class="navbar-brand p-0">
+              <h1 class="text-primary m-0"> <img src="./images/logo.png" alt=""> سفرني</h1>
+             
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+              <span class="fa fa-bars"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./">رئيسية</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">خدماتنا</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">جولة السياحة</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contact.html">تواصل معنا</a>
-              </li>
-        
-              
-            </ul>
-                <div>
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-default defualt" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                       تسجيل دخول
-                    </button>            
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                      <div class="modal-dialog">
-                      <div class="modal-content">
-                          <div class="modal-header">
-                          
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                          </div>
-                          <div class="modal-body">
-                            <h5 class="py-3"> تسجيل دخول :</h5>
-                            
-                              <form action="">
-                                  <input type="text" name="name" id="" placeholder="...الاسم" class="form-control mb-2">
-                                  <input type="password" name="name" id="" placeholder="كلمة سر..." class="form-control mb-2">
-                                  <a href="./" class="btn btn-primary w-50">دخول</a>
-                              </form>
-                          </div>
-                      
-                      </div>
-                      </div>
-                  </div>
-                    <!-- Modal -->
-                    <div class="modal fade" id="inscription" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                      <div class="modal-dialog">
-                      <div class="modal-content">
-                          <div class="modal-header">
-                          
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                          </div>
-                          <div class="modal-body">
-                            <h5 class="py-3"> تسجيل  :</h5>
-                            
-                            <form action="">
-                              <input type="text" name="name" id="" placeholder="...الاسم" class="form-control mb-2">
-                              <input type="password" name="name" id="" placeholder="كلمة سر..." class="form-control mb-2">
-                              <a href="./" class="btn btn-primary w-50">دخول</a>
-                              <button type="button" class="btn btn-default" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                هل نسيت كلمة سر ?
-                            </button>
-                          </form>
-                          </div>
-                      
-                      </div>
-                      </div>
-                  </div>
-                </div>
-          </div>
-        </div>
-      </nav>
-    <div class="signin py-2">
-        <h3 class="title py-3 text-center">إنشاء حساب جديد </h3>
-        <div class="container">
-            <form >
-                <div class="row">
-                    <div class="col-lg-6">
-                        <label for="name"> الاسم </label>
-                        <input type="text" name="username" class="form-control my-2"/>
-                        <label for="name"> الايميل </label>
-                        <input type="email" name="username" class="form-control my-2"/>
-                    </div>
-                    <div class="col-lg-6">
-                        <label for="name"> التاريخ </label>
-                        <input type="date" name="date" class="form-control my-2"/>
-                        <label for="password"> الكلمة المرور </label>
-                        <input type="password" name="password" class="form-control my-2"/>
-                        <label for="confirme"> تأكيد الكلمة المرور </label>
-                        <input type="password" name="password" class="form-control my-2"/>
-                    </div>
-                </div>
-                    <div class="d-flex align-content-center justify-content-start gap-2">
-                        <a href="./" class="btn btn-success"> إنشاء حساب</a>
-                        <a href="#" class="btn btn-default">هل لديك حساب ؟  </a>
-                    </div>
-            </form>
-        </div>
-    </div>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+              <div class="navbar-nav ms-auto py-0">
+                  <a href="./index.html" class="nav-item nav-link">رئيسية</a>
+                  <a href="#" class="nav-item nav-link">خدماتنا</a>
+                  <a href="#" class="nav-item nav-link">جولة السياحة</a>
+                
+                  <a href="./contact.html" class="nav-item nav-link">تواصل معنا</a>
 
-          <!-- Contact Us-->
-   
-          <section>
-            <div class="container py-5">
-                <h5 class="title py-3 px-3">    تواصل معنا :</h5>
-                <div class="row">
-                    <div class="col-lg-6">
-                       <div class="contact-details d-block">
-                            <div class="phone title py-2 px-2 my-2 d-flex  justify-content-start gap-2">
-                              <i class="fas fa-phone"></i>
-                                <p>+458558574222</p>
+              </div>
+              <a href="" class="btn btn-primary rounded-pill py-2 px-4 mx-3" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">تسجيل دخول</a>
+              
+          </div>
+      </nav>
+
+      <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+          <div class="container py-5">
+              <div class="row justify-content-center py-5">
+                  <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
+                      <h1 class="">سفرني</h1>
+                      
+                      <h1 class="display-3 text-white mb-3 animated slideInDown">إنشاء حساب جديد </h3>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Navbar & Hero End -->
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                           </div>
+                           <div class="modal-body">
+                             <h5 class="py-3"> تسجيل دخول :</h5>
                              
-                            </div>
-                            <div class="address title py-2 px-2 my-2 d-flex  justify-content-start gap-2 ">
-                              <i class="fas fa-map"></i>
-                              <p> شارع : جمال علي </p>
-                                
-                            </div>
-                            <div class="email title py-2 px-2 my-2 d-flex  justify-content-start gap-2">
-                              <i class="fas fa-envelope"></i>
-                              <p>Savarni@gmail.com</p>
-                            </div>
-                            <div class="title">
-                                <textarea name="message" class="form-control" placeholder="أكتب رسالتك...." id=""></textarea>
-                            </div>
-                            <button class="btn btn-primary w-50 my-2"> إرسال</button>
-                       </div>
-    
+                             <form action="">
+                               <input type="text" name="name" id="" placeholder="...الاسم" class="form-control mb-2">
+                               <input type="password" name="name" id="" placeholder="كلمة سر..." class="form-control mb-2">
+                               <a href="./" class="btn btn-primary w-50">دخول</a>
+                               <button type="button" class="btn btn-default" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                 هل نسيت كلمة سر ?
+                             </button>
+                           </form>
+                           </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="contact-map">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15217.535413559066!2d-15.984463800192177!3d17.53690199453333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe96707ec65a9f0d%3A0xdebf02028e345cb0!2sNimjat%2C%20Mauritania!5e0!3m2!1sen!2s!4v1730049755763!5m2!1sen!2s" width="637" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
                     </div>
                 </div>
-            </div>
-          </section>
-          <!-- Contact Us-->
-    
-          <!-- Footer Us-->
-          <footer class="bg-primary">
-              <p class="py-4 my-2 text-center text-white"> جميع الحقوق محفوظ ل <span class="text-black"> سفرني &copy;<span id="year"></span></span> </p>
-          </footer>
-          <!-- Footer Us-->
-    
-    
-    </body>
-    </html>
+<!--  Registartion  -->
+<div class="signin py-2">
+
+  <div class="container">
+      <form >
+          <div class="row">
+              <div class="col-lg-6">
+                  <label for="name"> الاسم </label>
+                  <input type="text" name="username" class="form-control my-2"/>
+                  <label for="name"> الايميل </label>
+                  <input type="email" name="username" class="form-control my-2"/>
+              </div>
+              <div class="col-lg-6">
+                  <label for="name"> التاريخ </label>
+                  <input type="date" name="date" class="form-control my-2"/>
+                  <label for="password"> الكلمة المرور </label>
+                  <input type="password" name="password" class="form-control my-2"/>
+                  <label for="confirme"> تأكيد الكلمة المرور </label>
+                  <input type="password" name="password" class="form-control my-2"/>
+              </div>
+          </div>
+              <div class="d-flex align-content-center justify-content-start gap-2">
+                  <a href="./" class="btn btn-success"> إنشاء حساب</a>
+                  <a href="#" class="btn btn-default">هل لديك حساب ؟  </a>
+              </div>
+      </form>
+  </div>
+</div>
+
+<!--  Registartion  -->
+
+
+
+  <!-- Footer Start -->
+  <div class="footer bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+      <div class="container py-5">
+          <div class="row g-5">
+              <div class="col-lg-4 col-md-6">
+                  <h4 class="text-white mb-3">سفرني</h4>
+                  <p>    
+                        الشركة السياحية الأفضل في الوطن العربي، هدفنا مساعدتك وتيسير أمورك، لا تتردد بالتواصل معنا فنحن هنا لنساعدك على إيجاد كل ما تحتاج له. إن كنت تبحث عن سكن أو جولة سياحية لتقضي أفضل الأوقات فقد وجدت طلبك.
+                  </p>
+
+         
+              </div>
+            
+              <div class="col-lg-4 col-md-6">
+                  <h4 class="text-white mb-3"> أماكن مقترحة</h4>
+                  <div class="row g-2 pt-2">
+                      <div class="col-4">
+                          <img class="img-fluid bg-light p-1" src="images/package-1.jpg" alt="">
+                      </div>
+                      <div class="col-4">
+                          <img class="img-fluid bg-light p-1" src="images/package-2.jpg" alt="">
+                      </div>
+                      <div class="col-4">
+                          <img class="img-fluid bg-light p-1" src="images/package-3.jpg" alt="">
+                      </div>
+                      <div class="col-4">
+                          <img class="img-fluid bg-light p-1" src="images/package-2.jpg" alt="">
+                      </div>
+                      <div class="col-4">
+                          <img class="img-fluid bg-light p-1" src="images/package-3.jpg" alt="">
+                      </div>
+                      <div class="col-4">
+                          <img class="img-fluid bg-light p-1" src="images/package-1.jpg" alt="">
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                  <h4 class="text-white  text- mb-3"> الاخر تحديثات</h4>
+                  <div class="position-relative w-100 mx-auto animated slideInDown">
+                      <input class="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5" type="text">
+                      <button type="button" class="btn btn-primary rounded-pill py-2 px-4 position-absolute top-0 start-0 ms-2" style="margin-top: 7px;">إرسال</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="container">
+          <div class="copyright">
+              <div class="row">
+                  <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                      &copy;<span id="year"></span>  جميع الحقوق محفوظ <a class="border-bottom text-primary text-2xl" href="#" style="font-size: 20px;">سفرني</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Footer End -->
+
+
+
+  <!-- Back to Top -->
+  <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fas fa-arrow-up"></i></a>
 </body>
 </html>

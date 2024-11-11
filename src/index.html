@@ -1,248 +1,297 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
     <title> سفرني</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <!-- Google Web Fonts -->
+  
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="./">
-            سفرني
-            <img src="./images/logo.png" alt="">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./">رئيسية</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#services">خدماتنا</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " href="./tours.html">جولة السياحة</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contact.html">تواصل معنا</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./signin.html">
-                    إنشاء حساب جديد 
-                </a>
-              </li>
-            </ul>
-                <div>
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-default defualt" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                       تسجيل دخول
-                    </button>
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid position-relative p-0">
+          <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+              <a href="" class="navbar-brand p-0">
+                  <h1 class="text-primary m-0"> <img src="./images/logo.png" alt=""> سفرني</h1>
               
-              
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                  <span class="fa fa-bars"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <div class="navbar-nav ms-auto py-0">
+                      <a href="./index.html" class="nav-item nav-link active">رئيسية</a>
+                      <a href="#" class="nav-item nav-link">خدماتنا</a>
+                      <a href="#" class="nav-item nav-link">جولات السياحة</a>
                     
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                      <div class="modal-dialog">
-                      <div class="modal-content">
-                          <div class="modal-header">
-                          
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      <a href="./contact.html" class="nav-item nav-link">تواصل معنا</a>
+  
+                  </div>
+                  <a href="" class="btn btn-primary rounded-pill py-2 px-4 mx-3" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">تسجيل دخول</a>
+                  <a href="./signin.html" class="btn btn-primary rounded-pill py-2 px-4 mx-3" > إنشاء حساب جديد</a>
+              </div>
+          </nav>
+  
+          <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+              <div class="container py-5">
+                  <div class="row justify-content-center py-5">
+                      <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
+                          <h1 class="display-3 text-white mb-3 animated slideInDown">سفرني</h1>
+                          <p class="fs-4 text-white mb-4 animated slideInDown">
+                              الشركة السياحية الأفضل في الوطن العربي، هدفنا مساعدتك وتيسير أمورك، لا تتردد بالتواصل معنا فنحن هنا لنساعدك على إيجاد كل ما تحتاج له. إن كنت تبحث عن سكن أو جولة سياحية لتقضي أفضل الأوقات فقد وجدت طلبك.
+                          </p>
+                          <div class="position-relative w-75 mx-auto animated slideInDown">
+                              <input class="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5" type="text">
+                              <button type="button" class="btn btn-primary rounded-pill py-2 px-4 position-absolute top-0 start-0 ms-2" style="margin-top: 7px;">بحث...</button>
                           </div>
-                          <div class="modal-body">
-                            <h5 class="py-3"> تسجيل دخول :</h5>
-                            
-                              <form action="">
-                                  <input type="text" name="name" id="" placeholder="...الاسم" class="form-control mb-2">
-                                  <input type="password" name="name" id="" placeholder="كلمة سر..." class="form-control mb-2">
-                                  <a href="./" class="btn btn-primary w-50">دخول</a>
-                                  <button type="button" class="btn btn-default" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    هل نسيت كلمة سر ?
-                                </button>
-                              </form>
-                          </div>
-                      
-                      </div>
                       </div>
                   </div>
-   
-                </div>
-          </div>
-        </div>
-      </nav>
-
-
-      <div class="container py-4">
-          <div class="row d-flex align-items-center">
-            <div class="slider-title col-lg-6">
-                <h1 class="text-3xl"> سفرني</h1>
-                <div class="slider-descrition py-3">
-                  الشركة السياحية الأفضل في الوطن العربي، هدفنا مساعدتك وتيسير أمورك، لا تتردد بالتواصل معنا فنحن هنا لنساعدك على إيجاد كل ما تحتاج له. إن كنت تبحث عن سكن أو جولة سياحية لتقضي أفضل الأوقات فقد وجدت طلبك.
-                </div>
-                <button class="btn btn-danger w-50  my-3"> احجز الان</button>
-            </div>
-            <div class="slider-image col-lg-6">
-              <img src="./images/Travel.png" class="w-100 img-thumbnail" alt="">
-            </div>
+              </div>
           </div>
       </div>
- 
-      
-
-      <!-- Services-->
-     <section id="services">
-      <h3 class="title py-3">
-        <div class="container">
-          خدماتنا
-        </div>
-      </h3>
-      <div class="container py-4">
-        <div class="row">
-          <div class="col-lg-3">
-              <div class="card" style="width:20rem;">
-                <div class="card-logo">
-                    <i class="fas fa-bed fa-2xl"></i>
+      <!-- Navbar & Hero End -->
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                           </div>
+                           <div class="modal-body">
+                             <h5 class="py-3"> تسجيل دخول :</h5>
+                             
+                             <form action="">
+                               <input type="text" name="name" id="" placeholder="...الاسم" class="form-control mb-2">
+                               <input type="password" name="name" id="" placeholder="كلمة سر..." class="form-control mb-2">
+                               <a href="./" class="btn btn-primary w-50">دخول</a>
+                               <button type="button" class="btn btn-default" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                 هل نسيت كلمة سر ?
+                             </button>
+                           </form>
+                           </div>
+                    </div>
+                    </div>
                 </div>
-              <div class="card-body">
-                <h5 class="card-title">حجز سكن</h5>
-                <p class="card-text">نقدم لكم خدمة الحجوزات في أفضل الفنادق والشقق ذات الإطلالة الرائعة والقريبة من جميع</p>
-                <a href="#" class="btn btn-primary w-50">إحجز الآن</a>
+      <!-- About Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+          <div class="row g-5">
+              <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                  <div class="position-relative h-100">
+                      <img class="img-fluid position-absolute w-100 h-100" src="images/Travel.png" alt="" style="object-fit: cover;">
+                  </div>
               </div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-              <div class="card" style="width:20rem;">
-                <div class="card-logo">
-                    <i class="fas fa-car fa-2xl"></i>
-                </div>
-              <div class="card-body">
-                <h5 class="card-title"> حجز سيارة</h5>
-                <p class="card-text"> نقدم لكم خدمة حجز السيارات سواءً سيارات الأوتوماتيك أو السيارات العادي</p>
-                <a href="#" class="btn btn-primary w-50">إحجز الآن</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-              <div class="card" style="width:20rem;">
-                <div class="card-logo">
-                    <i class="fas fa-suitcase  fa-2xl"></i>
-                </div>
-              <div class="card-body">
-                <h5 class="card-title"> جولات سياحية</h5>
-                <p class="card-text">  جولات سياحية خاصة مع أمهر السائقين كما نقدم جولات جماعية بأحدث الباصات مع أفضل المرشدين السياحيين الذين يُجيدون اللغة العربية ولإنجليزي</p>
-                <a href="#" class="btn btn-primary w-50">إحجز الآن</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-              <div class="card" style="width:20rem;">
-                <div class="card-logo">
-                    <i class="fas fa-plane fa-2xl"></i>
-                </div>
-              <div class="card-body">
-                <h5 class="card-title">  الاستقبال من المطار</h5>
-                <p class="card-text">نقدم لكم خدمة الاستقبال من المطار وتوديعكم في المطار بحيث يكون مندوبنا متواجد دائمًا في خدمتكم أثناء وصولكم أو ذهابكم للمطار مع أفضل وسائل النقل</p>
-                <a href="#" class="btn btn-primary w-50">إحجز الآن</a>
-              </div>
-            </div>
-          </div>
-          
-        </div>
-      </div>
-     </section>
-      <!-- Services-->
-      <!-- Tours-->
-      <section>
-        <h3 class="title py-3" id="tours">
-          <div class="container">
-              الجولات السياحية
-          </div>
-        </h3>
-        <div class="container py-4">
-            <div class="row">
-                <div class="col-lg-6">
-                    <a href="./turkey.html">
-                      <div class="card">
-                        <img src="./images/istanbul.jpg" class="card-img-top" alt="">
-                        <div class="card-body">
-                          <h3 class="py-3"> رحلة إلى مدينة إسطنبول في تركيا</h3>
-                          <p class="card-text">
-                            إسطنبول هي واحدة من أكبر و أجمل مدن تركيا وهي مصنفة ضمن أكثر المدن السياحية جذباً للسياح في العالم وتُعتبر إسطنبول الخيار الأول للسياح الذين يفكرون في الذهاب إلى تركيا. ستكون جولتنا في المعالم السياحية التالية:
-                            1. متحف آيا صوفيا: عُرف في العصر العُثماني باسم الجامع الكبير الشريف لآيا صوفيا، يقع على الضفة الأوروبيَّة في مدينة 
-                          </p>
-                          <span> سعر رحلة: 300$</span>
-                            <div class="py-3">
-                                <button class="btn btn-danger w-50">أحجز الان</button>
-                            </div>
-                        </div>
+              <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                  
+                  <h1 class="mb-4"> أهلا بك في <span class="text-primary">سفرني</span></h1>
+                  <p class="mb-4">
+                      الشركة السياحية الأفضل في الوطن العربي، هدفنا مساعدتك وتيسير أمورك، لا تتردد بالتواصل معنا فنحن هنا لنساعدك على إيجاد كل ما تحتاج له. إن كنت تبحث عن سكن أو جولة سياحية لتقضي أفضل الأوقات فقد وجدت طلبك.
+                  </p>
+                  <p class="mb-4"></p>
+                  <div class="row gy-2 gx-4 mb-4">
+                      <div class="col-sm-6">
+                          <p class="mb-0"><i class="fa fa-arrow-right text-primary mx-2 "></i> تذكرة طيران درجة الاولي</p>
                       </div>
-                    </a>
-                </div>
-                <div class="col-lg-6">
-                    <a href="./egypt.html">
-                        <div class="card">
-                          <img src="./images/pyramid.jpg" class="card-img-top" alt="">
-                          <div class="card-body">
-                            <h3 class="py-3">رحلة إلى الأهرامات في مصر </h3>
-                            <p class="card-text">تتصف أهرامات مصر الثلاثة بأنها أحد أهم عجائب الدنيا السبعة في جمهورية مصر تقع على هضبة الجيزة في محافظة الجيزة، أيضًا تقع على الضفة الغربية لنهر النيل، وهي تشمل ثلاثة أهرامات وهم خوفو، خفرع، منقرع، والتي بنيت قبل حوالي 25 قرنًا قبل الميلاد</p>
-                            <span> سعر رحلة: 300$</span>
-                            <div class="py-3">
-                                <button class="btn btn-danger w-50">أحجز الان</button>
-                            </div>
-                            </div>
-                          </div>
+                      <div class="col-sm-6">
+                          <p class="mb-0"><i class="fa fa-arrow-right text-primary mx-2"></i>
+                              حجز سكن
+                          </p>
+                      </div>
+                      <div class="col-sm-6">
+                          <p class="mb-0"><i class="fa fa-arrow-right text-primary mx-2"></i>حجز الفنادق 5 نجوم</p>
+                      </div>
+                      <div class="col-sm-6">
+                          <p class="mb-0"><i class="fa fa-arrow-right text-primary mx-2"></i>حجز سيارة
+                          </p>
+                      </div>
+                      <div class="col-sm-6">
+                          <p class="mb-0"><i class="fa fa-arrow-right text-primary mx-2"></i>جولة سياحية</p>
+                      </div>
+                      <div class="col-sm-6">
+                          <p class="mb-0"><i class="fa fa-arrow-right text-primary mx-2"></i>24/7 خدمة</p>
+                      </div>
+                  </div>
+                  <a class="btn btn-primary py-3 px-5 mt-2" href="">إقرا المزيد...</a>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- About End -->
+      <!-- Service Start -->
+      <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">خدماتنا</h6>
+                <h1 class="mb-5">خدماتنا </h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-hotel text-primary mb-4"></i>
+                            <h5 class="service-text">
+                                حجز سكن
+                            </h5>
+                            <p>
+                                نقدم لكم خدمة الحجوزات في أفضل الفنادق والشقق ذات الإطلالة الرائعة والقريبة من جميع
+                            </p>
                         </div>
-                      </a>
+                    </div>
                 </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-car text-primary mb-4"></i>
+                            <h5 class="service-text"> 
+                                حجز سيارة
+                            </h5>
+                            <p>
+                                نقدم لكم خدمة حجز السيارات سواءً سيارات الأوتوماتيك أو السيارات العادي
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-user text-primary mb-4"></i>
+                            <h5 class="service-text">
+                                الاستقبال من المطار
+                            </h5>
+                            <p>
+                                نقدم لكم خدمة الاستقبال من المطار وتوديعكم في المطار بحيث يكون مندوبنا متواجد دائمًا في خدمتكم أثناء وصولكم أو ذهابكم للمطار مع أفضل وسائل النقل
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-globe text-primary mb-4"></i>
+                            <h5 class="service-text">
+                                جولات سياحية
+                            </h5>
+                            <p>
+                                جولات سياحية خاصة مع أمهر السائقين كما نقدم جولات جماعية بأحدث الباصات مع أفضل المرشدين السياحيين الذين يُجيدون اللغة العربية ولإنجليزي
+                            </p>
+                        </div>
+                    </div>
+                </div>
+     
+
+
             </div>
         </div>
-      </section>
-      <!-- Contact Us-->
-   
-      <section>
-        <div class="container py-5">
-            <h5 class="title py-3 px-3">    تواصل معنا :</h5>
-            <div class="row">
-                <div class="col-lg-6">
-                   <div class="contact-details d-block">
-                        <div class="phone title py-2 px-2 my-2 d-flex  justify-content-start gap-2">
-                          <i class="fas fa-phone"></i>
-                            <p>+458558574222</p>
-                         
-                        </div>
-                        <div class="address title py-2 px-2 my-2 d-flex  justify-content-start gap-2 ">
-                          <i class="fas fa-map"></i>
-                          <p> شارع : جمال علي </p>
-                            
-                        </div>
-                        <div class="email title py-2 px-2 my-2 d-flex  justify-content-start gap-2">
-                          <i class="fas fa-envelope"></i>
-                          <p>Savarni@gmail.com</p>
-                        </div>
-                        <div class="title">
-                            <textarea name="message" class="form-control" placeholder="أكتب رسالتك...." id=""></textarea>
-                        </div>
-                        <button class="btn btn-primary w-50 my-2"> إرسال</button>
-                   </div>
+    </div>
+    <!-- Service End -->
+        <!-- Destination Start -->
+    <div class="container-xxl py-5 destination">
+      <div class="container">
+          <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+              <h6 class="section-title bg-white text-center text-primary px-3">جولات السياحية</h6>
+              <h1 class="mb-5">أشهر الجولات السياحية</h1>
+          </div>
+          <div class="row g-3">
+              <div class="col-lg-7 col-md-6">
+                  <div class="row g-3">
+                      <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+                          <a class="position-relative d-block overflow-hidden" href="./egypt.html">
+                              <img class="img-fluid" src="images/pyramid.jpg" alt="">
+                              <div class="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">    %30 تخفيض   </div>
+                              <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">مصر</div>
+                          </a>
+                      </div>
+                      <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                          <a class="position-relative d-block overflow-hidden" href="">
+                              <img class="img-fluid" src="images/turkey-1.jpg" alt="">
+                              <div class="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2"> %45 تخفيض   </div>
+                              <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2"> تركيا</div>
+                          </a>
+                      </div>
+                      <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                          <a class="position-relative d-block overflow-hidden" href="">
+                              <img class="img-fluid" src="images/egypt-1.jfif" alt="">
+                              <div class="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">%40 تخفيض   </div>
+                              <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">الاهرامات</div>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+                  <a class="position-relative d-block h-100 overflow-hidden" href="./turkey.html">
+                      <img class="img-fluid position-absolute w-100 h-100" src="images/istanbul.jpg" alt="" style="object-fit: cover;">
+                      <div class="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">%30 تخفيض   </div>
+                      <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">تركيا</div>
+                  </a>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Destination Start -->
+  <!-- Footer Start -->
+  <div class="footer bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-4 col-md-6">
+                <h4 class="text-white mb-3">سفرني</h4>
+                <p>    
+                      الشركة السياحية الأفضل في الوطن العربي، هدفنا مساعدتك وتيسير أمورك، لا تتردد بالتواصل معنا فنحن هنا لنساعدك على إيجاد كل ما تحتاج له. إن كنت تبحث عن سكن أو جولة سياحية لتقضي أفضل الأوقات فقد وجدت طلبك.
+                </p>
 
-                </div>
-                <div class="col-lg-6">
-                    <div class="contact-map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15217.535413559066!2d-15.984463800192177!3d17.53690199453333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe96707ec65a9f0d%3A0xdebf02028e345cb0!2sNimjat%2C%20Mauritania!5e0!3m2!1sen!2s!4v1730049755763!5m2!1sen!2s" width="637" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       
+            </div>
+          
+            <div class="col-lg-4 col-md-6">
+                <h4 class="text-white mb-3"> أماكن مقترحة</h4>
+                <div class="row g-2 pt-2">
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="images/package-1.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="images/package-2.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="images/package-3.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="images/package-2.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="images/package-3.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="images/package-1.jpg" alt="">
                     </div>
                 </div>
             </div>
+            <div class="col-lg-4 col-md-6">
+                <h4 class="text-white  text- mb-3"> الاخر تحديثات</h4>
+                <div class="position-relative w-100 mx-auto animated slideInDown">
+                    <input class="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5" type="text">
+                    <button type="button" class="btn btn-primary rounded-pill py-2 px-4 position-absolute top-0 start-0 ms-2" style="margin-top: 7px;">إرسال</button>
+                </div>
+            </div>
         </div>
-      </section>
-      <!-- Contact Us-->
-
-      <!-- Footer Us-->
-      <footer class="bg-primary">
-          <p class="py-4 my-2 text-center text-white"> جميع الحقوق محفوظ ل <span class="text-black"> سفرني &copy;<span id="year"></span></span> </p>
-      </footer>
-      <!-- Footer Us-->
+    </div>
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy;<span id="year"></span>  جميع الحقوق محفوظ <a class="border-bottom text-primary text-2xl" href="#" style="font-size: 20px;">سفرني</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+<!-- Back to Top -->
+<p href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fas fa-arrow-up"></i></p>
 </body>
 </html>
